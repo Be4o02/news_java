@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newsFragment"
+    android:background="@drawable/news_gradient"
+    android:id="@+id/fragment_container">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Новости"
+        android:textColor="#ffffff"
+        android:textSize="24dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="70dp" />
+
+    <FrameLayout
+        android:layout_width="345dp"
+        android:layout_height="422dp"
+        android:layout_gravity="center">
+
+        <!-- Первое изображение в верхнем левом углу -->
+        <FrameLayout
+            android:layout_width="141dp"
+            android:layout_height="193dp">
+
+            <!-- Изображение -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/news_img"
+                android:scaleType="centerCrop" />
+
+            <!-- Блок с цветом и текстом -->
+            <LinearLayout
+                android:layout_width="21dp"
+                android:layout_height="34dp"
+                android:background="#1C1A46"
+                android:padding="1dp"
+                android:layout_gravity="top|start">
+
+                <!-- Текст -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="31 окт 2024"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8sp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+            <!-- Дополнительный блок с текстом внизу -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:background="#1C1A46"
+
+
+                >
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/news_button_1"
+                android:layout_width="100dp"
+                android:layout_height="24dp"
+                android:text="Подробно"
+                android:layout_gravity="bottom"
+                android:textColor="#ffffff"
+                android:textSize="6sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="5dp"
+               android:paddingTop="3dp"
+                android:backgroundTint="#221E76"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Человек паук терроризирует город"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="29dp"
+
+
+                />
+
+        </FrameLayout>
+
+        <!-- Второе изображение в верхнем правом углу -->
+        <FrameLayout
+            android:layout_width="141dp"
+            android:layout_height="193dp"
+            android:layout_gravity="top|end">
+
+
+
+            <!-- Изображение -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/news_img"
+                android:scaleType="centerCrop" />
+
+            <!-- Блок с цветом и текстом -->
+            <LinearLayout
+                android:layout_width="21dp"
+                android:layout_height="34dp"
+                android:background="#1C1A46"
+                android:padding="1dp"
+                android:layout_gravity="top|start">
+
+                <!-- Текст -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="31 окт 2024"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8sp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:background="#1C1A46"
+
+
+                >
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/news_button_2"
+                android:layout_width="100dp"
+                android:layout_height="24dp"
+                android:text="Подробно"
+                android:layout_gravity="bottom"
+                android:textColor="#ffffff"
+                android:textSize="6sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="3dp"
+                android:backgroundTint="#221E76"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Человек паук терроризирует город"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="29dp"
+
+
+                />
+
+        </FrameLayout>
+
+        <!-- Третье изображение в нижнем левом углу -->
+        <FrameLayout
+            android:layout_width="141dp"
+            android:layout_height="193dp"
+            android:layout_gravity="bottom|start">
+
+            <!-- Изображение -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/news_img"
+                android:scaleType="centerCrop" />
+
+            <!-- Блок с цветом и текстом -->
+            <LinearLayout
+                android:layout_width="21dp"
+                android:layout_height="34dp"
+                android:background="#1C1A46"
+                android:padding="1dp"
+                android:layout_gravity="top|start">
+
+
+                <!-- Текст -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="31 окт 2024"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8sp"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:background="#1C1A46"
+
+
+                >
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/news_button_3"
+                android:layout_width="80dp"
+                android:layout_height="24dp"
+                android:text="Подробно"
+                android:layout_gravity="bottom"
+                android:textColor="#ffffff"
+                android:textSize="6sp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="3dp"
+                android:backgroundTint="#221E76"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Человек паук терроризирует город"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="29dp"
+
+
+                />
+
+        </FrameLayout>
+
+        <!-- Четвертое изображение в нижнем правом углу -->
+        <FrameLayout
+            android:layout_width="141dp"
+            android:layout_height="193dp"
+            android:layout_gravity="bottom|end">
+
+            <!-- Изображение -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/news_img"
+                android:scaleType="centerCrop" />
+
+            <!-- Блок с цветом и текстом -->
+            <LinearLayout
+                android:layout_width="21dp"
+                android:layout_height="34dp"
+                android:background="#1C1A46"
+                android:padding="1dp"
+                android:layout_gravity="top|start">
+
+                <!-- Текст -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="31 окт 2024"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8sp"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="vertical"
+                android:layout_gravity="bottom"
+                android:background="#1C1A46"
+
+
+                >
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/news_button_4"
+                android:layout_width="100dp"
+                android:layout_height="24dp"
+                android:text="Подробно"
+                android:layout_gravity="bottom"
+                android:textColor="#ffffff"
+                android:textSize="6sp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="3dp"
+                android:backgroundTint="#221E76"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Человек паук терроризирует город"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="29dp"
+
+
+                />
+
+        </FrameLayout>
+
+    </FrameLayout>
+</FrameLayout>
